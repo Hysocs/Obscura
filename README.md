@@ -39,8 +39,8 @@
 
 <table>
   <tr>
-    <td><img src="https://i.imgur.com/ryz5Csp.png" alt="Screenshot1"></td>
-    <td><img src="https://i.imgur.com/8Dg66jz.png[" alt="Screenshot2"></td>
+    <td><img src="https://i.imgur.com/QRO0UFD.png" alt="Screenshot1"></td>
+    <td><img src="https://i.imgur.com/8Dg66jz.png" alt="Screenshot2"></td>
   </tr>
 </table>
 
