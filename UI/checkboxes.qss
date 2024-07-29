@@ -1,0 +1,23 @@
+QCheckBox {
+    color: #FFFFFF; /* Text color */
+    padding-left: 2px; /* Add padding to provide space for the larger indicator */
+    padding: 2px; /* Add padding to provide space for the larger indicator */
+    background-color: transparent; /* Make the checkbox background transparent */
+    font-size: 12px;
+}
+
+QCheckBox::indicator {
+    width: 16px;  /* Increased size */
+    height: 16px; /* Increased size */
+    border-radius: 3px; /* Adjust border radius as needed */
+    border: none; /* Remove border */
+}
+
+QCheckBox::indicator:unchecked {
+    background-color: #110F25; /* Purple background color */
+}
+
+QCheckBox::indicator:checked {
+    background-color: #110F25; /* Purple background color */
+    image: url(UI/check.png); /* Path to the check image */
+}

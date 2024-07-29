@@ -1,0 +1,16 @@
+QGroupBox {
+    border: 1px solid #2E2A48;
+    border-radius: 5px; /* Adjust this value to get the desired rounding */
+    background-color: #191735; /* Background color for the group boxes */
+    margin-top: 5px; /* Leave space for the title */
+}
+
+QGroupBox::title {
+    color: #FFFFFF; /* Title color */
+    position: relative; /* Enable relative positioning */
+    top: -5px; /* Move the title upwards */
+    left: 15px; /* Move the title to the right */
+    font-weight: bold; /* Make the title text bold */
+    background-color: transparent; /* Make the checkbox background transparent */
+}
+

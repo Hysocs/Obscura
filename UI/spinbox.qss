@@ -1,0 +1,41 @@
+QSpinBox {
+    background-color: #1E1A3D;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+QSpinBox::up-button {
+    subcontrol-origin: border;
+    subcontrol-position: top right; /* position at the top right corner */
+    width: 16px; /* width of the button */
+    border-width: 1px;
+}
+
+QSpinBox::up-arrow {
+    image: url('up-arrow.png'); /* replace 'up-arrow.png' with the path to your up arrow image */
+    width: 10px;
+    height: 10px;
+}
+
+QSpinBox::down-button {
+    subcontrol-origin: border;
+    subcontrol-position: bottom right; /* position at the bottom right corner */
+    width: 16px; /* width of the button */
+    border-width: 1px;
+}
+
+QSpinBox::down-arrow {
+    image: url('down-arrow.png'); /* replace 'down-arrow.png' with the path to your down arrow image */
+    width: 10px;
+    height: 10px;
+}
+
+QSpinBox::up-button:pressed, QSpinBox::down-button:pressed {
+    background-color: #1A1A1A;
+}
+
+QSpinBox::up-button:hover, QSpinBox::down-button:hover {
+    background-color: #2A2A2A;
+}

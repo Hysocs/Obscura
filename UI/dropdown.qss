@@ -1,0 +1,72 @@
+QComboBox {
+    border: 1px solid #191735;
+    border-radius: 2px;
+    padding: 1px 18px 1px 3px;
+    min-width: 6em;
+    background-color: #110F25; /* Background color */
+    color: #FFFFFF; /* Text color */
+    min-height: 25px; /* Ensure the QComboBox itself is taller */
+    width: 100px; /* Adjust this value to set the width of the dropdown */
+}
+
+QComboBox:editable {
+    background: #110F25;
+}
+
+QComboBox:!editable, QComboBox::drop-down:editable {
+    background: #110F25;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 15px;
+    border-left-width: 1px;
+    border-left-color: #191735;
+    border-left-style: solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+QComboBox::down-arrow {
+    image: url(UI/down-arrow.png); /* Path to your custom arrow image */
+    width: 11px;
+    height: 11px;
+}
+
+QComboBox::down-arrow:on {
+    top: 1px;
+    left: 1px;
+}
+
+QComboBox QAbstractItemView {
+    border: 1px solid #191735;
+    selection-background-color: #FB0D43;
+    background-color: #191735;
+    color: #FFFFFF;
+    outline: none; /* Remove dotted lines */
+    min-width: 150px; /* Adjust this value to set the width of the dropdown options */
+}
+
+QListView {
+    border: 1px solid #191735;
+    background-color: #191735;
+    color: #FFFFFF;
+    outline: none; /* Remove dotted lines */
+}
+
+QListView::item {
+    background-color: #191735;
+    color: #FFFFFF;
+}
+
+QListView::item:hover {
+    background-color: #FB0D43;
+    color: #FFFFFF;
+}
+
+QListView::item:selected {
+    background-color: #FB0D43;
+    color: #FFFFFF;
+    outline: none; /* Remove dotted lines */
+}

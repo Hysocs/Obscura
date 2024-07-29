@@ -1,0 +1,32 @@
+QWidget {
+    background: transparent;  /* Ensure the parent widget has a transparent background */
+}
+
+QSlider::groove:horizontal {
+    border: 1px solid #bbb;
+    background: #1E1A3D;  /* Set this to your preferred background color */
+    height: 16px;  /* Adjust the height to make it thicker */
+    margin: 0px;  /* Remove margins */
+}
+
+QSlider::sub-page:horizontal {
+    background: #FB0D43;  /* Set this to your preferred fill color */
+    border: 1px solid #777;
+    height: 16px;  /* Match the height of the groove */
+    margin: 0px;  /* Remove margins */
+}
+
+QSlider::add-page:horizontal {
+    background: #1E1A3D;  /* Match this to the groove background color */
+    border: 1px solid #777;
+    height: 16px;  /* Match the height of the groove */
+    margin: 0px;  /* Remove margins */
+}
+
+QSlider::handle:horizontal {
+    background: transparent; 
+    border: transparent; 
+    width: 16px;  /* Adjust the width of the handle */
+    height: 16px;  /* Adjust the height of the handle */
+    margin: -3px -8px;  /* Ensure the handle aligns correctly with the groove */
+}
