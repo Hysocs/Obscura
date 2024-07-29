@@ -61,4 +61,5 @@ For detailed usage instructions and troubleshooting, please refer to the reposit
 
 This project is a work in progress and is intended for learning purposes only. Some features may not work as expected, and the obfuscation techniques may not provide the same level of protection as other well-known methods. Use it at your own risk and do not rely on it for critical security purposes.
 
+**Note:** This code is designed to be run in a development environment like Visual Studio Code with a virtual environment (venv). It is not formatted for compilation using PyInstaller or any other compiler.
 ---
